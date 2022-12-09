@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>/
+#include <stdio.h>
 
 /**
- * main - print a variable that displays positive, negative or 0
+ * main - print a variable that displays positive, negative or zero
  *
  * Return: 0
 */
