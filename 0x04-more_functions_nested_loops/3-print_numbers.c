@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - to print the numbers, from 0 to 9
- *
- * Return: 0
- */
+*print_numbers - print 0123456789
+* owned by Bwave ICT
+*Return: void
+*/
+
 void print_numbers(void)
 {
 	char c;
@@ -13,5 +14,5 @@ void print_numbers(void)
 	{
 	_putchar(c);
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
