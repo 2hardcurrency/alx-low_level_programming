@@ -7,7 +7,9 @@
  */
 int _strlen(char *s)
 {
-	_putchar("%s", strlen(int, *s));
+	int str;
+	int len;
+	_putchar("%d\n", strlen(int, *s));
 
 		return (0);
 }
