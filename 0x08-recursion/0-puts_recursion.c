@@ -9,13 +9,18 @@
 
 void _puts_recursion(char *s)
 {
-	char s[]
+	char *s;
+
+	if (*s)
 	{
-		char s;
-
-		scanf("%s",  s);
-		_putchar("%s", s);
-
-		return (str);
+		_putchar("%s", *s);
+		_puts_recursion(s + 1);
 	}
-}
+	else
+	{
+		_putchar("\n");
+	}
+
+		return (0);
+};
+	}
