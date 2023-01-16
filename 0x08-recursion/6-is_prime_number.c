@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * is_prime_number - return prime numbers
+ * check - check the numbers
  * @j: int 1
  * @i: int 2
+ *
  * Return: 1 or 0
  */
 
