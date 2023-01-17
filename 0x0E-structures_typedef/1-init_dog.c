@@ -20,6 +20,6 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	};
 	void main()
 	{
-		struct dog *d = {poppy, 3.3, Bob};
+		struct dog *d = {"poppy", 3.3, "Bob"};
 	}
 }
