@@ -1,14 +1,14 @@
 k#include "dog.h"
 /**
  * init_dog - initializing dog`s struct
- * @name: name of the struct
+ * @name: name of dog
  *
- * @age: age of the struct
+ * @age: age of dog
  *
- * @owner: owner of the struct
+ * @owner: owner of dog
  *
- * @d: struct variable
- * Return: (0)
+ * @d: struct pointer
+ * Return: (void)
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
@@ -18,4 +18,4 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 		d->age = age;
 		d->owner = owner;
 	}
-}
+};
