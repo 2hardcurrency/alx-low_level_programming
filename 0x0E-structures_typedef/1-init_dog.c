@@ -1,4 +1,4 @@
-k#include "dog.h"
+#include "dog.h"
 /**
  * init_dog - initializing dog`s struct
  * @name: name of dog
@@ -12,10 +12,14 @@ k#include "dog.h"
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (*d)
+	struct dog
 	{
-		d->char name = poppy;
-		d->float age = 3.3;
-		d->char owner = Bob;
+		char *name;
+		float age;
+		char *owner;
+	};
+	void main()
+	{
+		struct dog *d = {poppy, 3.3, Bob};
 	}
-};
+}
