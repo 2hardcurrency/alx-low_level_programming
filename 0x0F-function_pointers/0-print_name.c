@@ -14,7 +14,7 @@ void print_name(char *name, void (*f)(char *))
 {
 	void name(char *f)
 	{
-		printf("The value of f is %s", f);
+		_putchar("The value of f is %s", f);
 	}
 
 	char main()
