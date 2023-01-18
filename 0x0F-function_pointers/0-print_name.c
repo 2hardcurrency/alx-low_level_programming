@@ -10,7 +10,18 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	char print_name[20] = "name";
+	void name(char *f)
+	{
+		printf("The value of f is %s", f);
+	}
 
-	printf("%s", print_name);
+	char main()
+	{
+	 void (*f)(char) = &name;
+	 (*f)(name);
+	}
+	
+	 return (0);
 }
+
+
