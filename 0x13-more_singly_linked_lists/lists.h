@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stddef.h>
+
 typedef struct listint_s
 {
 	int n;
