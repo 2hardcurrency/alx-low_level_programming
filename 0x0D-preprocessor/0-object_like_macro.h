@@ -1,6 +1,1 @@
-#ifndef MACRO_H
-#define MACRO_H
-
-#define size 1024
-
-#endif
+VimCrypt~03!óÁþOYa“Ñt¡³¸‘ð™	•Õá–Ä‚å#Táôn¡…·#Ò£ïWŠÒÅ„à-Îµµ""ì>(}“™Æ¦(“Ùé10µ<Öo)'¤dÉ±Q™_"O:ÞøÐy-£Äº²Y~¼5uCžû
