@@ -1,21 +1,24 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * create_file - Create a function that creates a file.
+ * create_file -creates an array of chars, and initializes
  *
- * @filename: name of the file to be created
+ * @text_content: is a NULL terminated string to write to the file
+ * @filename: is the name of the file to create
  *
- * @text_content: the string to be written
- * Return: 1 or -1
+ * Return: 1 on success, -1 on failure
  */
 int create_file(const char *filename, char *text_content)
 {
-	char str[20] = "text_content";
-	int o, w, len;
-	FILE *fptr;
+	int o, w, len = 0;
 
-	ptr = fopen("filename", "rw");
+	if (filename == NULL)
+		return (-1);
+
+	if (text_content != NULL)
+	{
+		for (len = 0; text_content[len];)
+			len++;
+	}
 
 	o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 	w = write(o, text_content, len);
@@ -23,18 +26,7 @@ int create_file(const char *filename, char *text_content)
 	if (o == -1 || w == -1)
 		return (-1);
 
-	if (filename == NULL)
-		return (-1);
-
-	if (text_content != NULL)
-
-	{
-		for (len = 0; text_content[len]);
-		len++;
-	}
-
-	fclose(ptr);
+	close(o);
 
 	return (1);
 }
-
