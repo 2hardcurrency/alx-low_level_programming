@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include "lists.h"
 
@@ -7,6 +8,7 @@
  *
  * @head: A pointer to the first node of the list to free
  */
+
 void free_list(list_t *head)
 {
 	if (head)
