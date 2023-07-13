@@ -1,6 +1,5 @@
 #include "search_algos.h"
-#include <stdlib.h>
-#include <stdio.h>
+
 
 /**
  * interpolation_search - Searches for a value in a sorted array
@@ -33,7 +32,7 @@ int interpolation_search(int *array, size_t size, int value)
 		}
 
 		if (array[i] == value)
-			return (1);
+			return (i);
 		if (array[i] > value)
 			r = i - 1;
 		else
